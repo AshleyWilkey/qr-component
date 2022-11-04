@@ -1,0 +1,37 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family:'Outfit', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.qr-card {
+    background-color:hsl(0, 0%, 100%);
+    max-width: 353px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+.qr-code {
+width: 100%;
+border-radius: 20px;
+}
+.qr-card-text {
+    padding: 10px;
+}
+
+h1 {
+    color:hsl(218, 44%, 22%);
+    font-size: 1.7em;
+
+}
+
+p {
+    color:hsl(220, 15%, 55%);
+    font-size: 1.2em;
+}
